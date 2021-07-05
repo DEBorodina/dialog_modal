@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;  
+}
+
+button {
+    font-family: inherit;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #ff8577;
+}
+
+.layout {
+    min-height: 100vh;
+    background-image: url(../images/orangeellips.png),url(../images/blueellips.png);
+    background-repeat: no-repeat;
+    background-position: left top,right bottom;
+}
+
+.wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 1080px;
+    height: 665px;   
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__text {
+    padding-top: 88px;
+    padding-right: 43px;
+    padding-bottom: 52px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #ffffff;    
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.note {
+    width: 699px;
+    height: 305px;
+    box-shadow: 0px 8px 30px  #0000001f;
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+.note__content {
+    margin: 40px;
+    height: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.note__text {
+    width: 476px;
+    height: 48px;
+    font-size: 17px;
+    font-weight: 400;    
+}
+
+.note__colorfultext {
+    font-weight: 700;
+    color: #f22b25;    
+}
+
+.note__button-container {
+    width: 619px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.note__button {
+    width: 177px;
+    height: 56px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    border-radius: 6px;    
+}
+
+.note__button--active {
+    width: 242px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.footer {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.footer__button {
+    width: 177px;
+    height: 56px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ff8577;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+}
+
+.footer__image {
+    padding-left: 19px;
+    padding-right: 13px;
+}
+
+.footer__text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+    
