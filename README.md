@@ -1,3 +1,3 @@
-# Макет диалогового окна
+# Dialog Modal
 ____
-Пример использования макета диалогового окна
+Example of using modal window desiged with HTML amnd CSS
